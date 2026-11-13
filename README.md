@@ -33,9 +33,10 @@ The resume download and view links use `public/Faiyaz_Shahriar_Resume.pdf`. Proj
 1. Push this folder to a new GitHub repository.
 2. Import that repository into Vercel.
 3. Framework preset: **Vite**.
-4. Build command: `npm run build`.
-5. Output directory: `dist`.
-6. Deploy, then test the live URL on mobile and desktop.
+4. Install command: `npm ci`.
+5. Build command: `npm run build`.
+6. Output directory: `dist`.
+7. Deploy, then test the live URL on mobile and desktop.
 
 All project detail routes use React Router. If direct refresh on `/projects/...` returns 404 on your host, configure SPA rewrites so requests fall back to `/index.html`. Vercel usually handles Vite SPA routing; if needed, add a `vercel.json` with a rewrite to `/index.html`.
 
